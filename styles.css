@@ -486,3 +486,15 @@ body{background:#FBF7F2;color:var(--text)}
 .bea-partnership-footer{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin:23px 0 0;padding:0 4px;font:600 10px/1.5 var(--sans);letter-spacing:.16em;color:#8E5867}
 @media(max-width:900px){.bea-feature{grid-template-columns:1fr}.bea-feature-content{padding:40px 34px}.bea-feature-visual{height:440px;min-height:0}.bea-feature-visual>img{position:absolute;inset:0}.bea-partnership-footer{justify-content:flex-start;gap:12px 22px}}
 @media(max-width:550px){.bea-feature{border-radius:22px}.bea-feature-content{padding:32px 24px}.bea-monogram{width:77px;height:77px}.bea-identity{gap:12px;margin-bottom:22px}.bea-identity-copy>span{font-size:12px}.bea-identity-copy>strong{font-size:24px}.bea-feature h2{font-size:clamp(31px,8.4vw,42px)}.bea-feature-content>p:not(.eyebrow){font-size:14px}.bea-feature-visual{height:360px}.bea-visual-caption{left:22px;bottom:22px}.bea-partnership-footer{font-size:9px;letter-spacing:.09em}}
+
+
+/* Sympla checkout: booking handled externally, no duplicate form */
+.sympla-card-body{padding-top:24px}
+.sympla-card-body>p:first-child{margin:0 0 24px;font:400 14px/1.85 var(--sans);color:#78676d}
+.sympla-steps{display:grid;gap:13px;padding:20px 22px;border:1px solid #E7D7D0;border-radius:16px;background:#FBF7F2;margin-bottom:26px}
+.sympla-steps>div{display:flex;align-items:center;gap:14px;font:400 13px/1.5 var(--sans);color:#60444d}
+.sympla-steps strong{font:600 11px/1 var(--sans);color:#6B0F2A;letter-spacing:.08em}
+.sympla-card .sympla-buy{width:100%;display:flex;justify-content:space-between;text-align:left}
+.sympla-card .sympla-buy span{display:inline-flex;align-items:center;flex:none}
+.sympla-card .form-note{margin:16px 0 0}
+@media(max-width:640px){.sympla-steps{padding:17px}.sympla-card-body{padding-top:18px}.sympla-card-body>p:first-child{font-size:13px}}
