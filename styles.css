@@ -457,3 +457,32 @@ body{background:#FBF7F2;color:var(--text)}
   .gallery-item.gallery-extra.wide { min-height: 280px; }
 }
 @media (prefers-reduced-motion: reduce){ .gallery-item img {transition:none;} }
+
+/* Partner editorial feature: BEA beauty & lab */
+.bea-partnership{padding:clamp(64px,7vw,108px) 0;background:#F4E6DF;color:#381E27}
+.bea-feature{display:grid;grid-template-columns:minmax(0,1.02fr) minmax(0,.98fr);min-height:590px;overflow:hidden;background:#FBF7F2;border:1px solid #E7D7D0;border-radius:30px;box-shadow:0 20px 55px rgba(79,10,32,.07)}
+.bea-feature-content{min-width:0;padding:clamp(30px,4.6vw,72px);display:flex;flex-direction:column;justify-content:center;align-items:flex-start}
+.bea-partnership .bea-eyebrow{margin-bottom:20px;color:#6B0F2A}
+.bea-identity{display:flex;align-items:center;gap:18px;margin-bottom:27px}
+.bea-monogram{width:104px;height:104px;object-fit:contain;flex:none;border-radius:50%;filter:drop-shadow(0 6px 14px rgba(79,10,32,.09))}
+.bea-identity-copy{display:flex;flex-direction:column;min-width:0;color:#6B0F2A}
+.bea-identity-copy>span{font:500 15px/1.1 var(--sans);letter-spacing:.27em}
+.bea-identity-copy>strong{font:600 clamp(24px,2.6vw,35px)/1.22 var(--sans);letter-spacing:-.06em}
+.bea-identity-copy>small{font:600 10px/1.5 var(--sans);letter-spacing:.22em;margin-top:6px}
+.bea-feature h2{font:500 clamp(34px,3.5vw,57px)/1.08 var(--sans);letter-spacing:-.048em;max-width:560px;margin:0 0 24px;color:#381E27}
+.bea-feature h2 em{font:italic 500 1.2em/1 var(--serif);color:#9B6573;letter-spacing:-.02em}
+.bea-feature-content>p:not(.eyebrow){font:400 15px/1.86 var(--sans);margin:0 0 27px;max-width:520px;color:#6D5259}
+.bea-feature-content>p strong{font-weight:700;color:#6B0F2A}
+.bea-instagram-link{display:inline-flex;align-items:center;justify-content:center;gap:18px;padding:15px 20px;background:#6B0F2A;color:#FBF7F2;border-radius:4px;font:600 11px/1.45 var(--sans);text-transform:uppercase;letter-spacing:.085em;transition:background .2s ease,transform .2s ease}
+.bea-instagram-link:hover,.bea-instagram-link:focus-visible{background:#8D3E54;transform:translateY(-1px)}
+.bea-instagram-link span{display:inline-flex;align-items:center;justify-content:center}
+.bea-instagram-link svg{width:17px;height:17px}
+.bea-feature-visual{position:relative;min-height:550px;overflow:hidden;background:#DFD1CC}
+.bea-feature-visual>img{height:100%;width:100%;object-fit:cover;object-position:52% 50%;display:block}
+.bea-feature-visual::after{content:"";position:absolute;inset:55% 0 0;background:linear-gradient(transparent,rgba(40,14,24,.64));pointer-events:none}
+.bea-visual-caption{position:absolute;z-index:1;left:clamp(24px,3vw,42px);right:24px;bottom:clamp(22px,3vw,42px);color:#FFF9F4}
+.bea-visual-caption span{display:block;font:600 10px/1.3 var(--sans);letter-spacing:.17em;margin-bottom:9px}
+.bea-visual-caption strong{font:500 clamp(25px,3vw,38px)/1.05 var(--sans);letter-spacing:-.04em;display:block;max-width:360px}
+.bea-partnership-footer{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin:23px 0 0;padding:0 4px;font:600 10px/1.5 var(--sans);letter-spacing:.16em;color:#8E5867}
+@media(max-width:900px){.bea-feature{grid-template-columns:1fr}.bea-feature-content{padding:40px 34px}.bea-feature-visual{height:440px;min-height:0}.bea-feature-visual>img{position:absolute;inset:0}.bea-partnership-footer{justify-content:flex-start;gap:12px 22px}}
+@media(max-width:550px){.bea-feature{border-radius:22px}.bea-feature-content{padding:32px 24px}.bea-monogram{width:77px;height:77px}.bea-identity{gap:12px;margin-bottom:22px}.bea-identity-copy>span{font-size:12px}.bea-identity-copy>strong{font-size:24px}.bea-feature h2{font-size:clamp(31px,8.4vw,42px)}.bea-feature-content>p:not(.eyebrow){font-size:14px}.bea-feature-visual{height:360px}.bea-visual-caption{left:22px;bottom:22px}.bea-partnership-footer{font-size:9px;letter-spacing:.09em}}
